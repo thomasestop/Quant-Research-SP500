@@ -42,6 +42,8 @@ Mise en évidence du *vol drag* — l'écart entre rendement arithmétique annua
 ### 2 — Distribution des rendements
 Calcul du skewness et du kurtosis (formules non biaisées, N−1). Comparaison du nombre d'événements à 2σ et 3σ observés vs prédits par une gaussienne — sur la période étudiée, les chocs à 3σ sont environ **3x plus fréquents** que ne le prédit un modèle gaussien.
 
+![Fat tails](PNG/sp500_analyse.png)
+
 ### 3 — Risque
 VaR historique et paramétrique, CVaR (Expected Shortfall), maximum drawdown, ratios Sharpe / Sortino / Calmar.
 
