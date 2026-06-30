@@ -66,6 +66,8 @@ Construction d'une surface de volatilité à partir de vraies cotations d'option
 - de la term structure de la vol ATM
 - du skew systématiquement positif (puts OTM plus chers que calls OTM), signature de l'aversion au risque de queue du marché
 
+![Surface de volatilite implicite SP500](PNG/spx_vol_surface.png)
+
 ## Concepts démontrés
 
 - Lemme d'Itô et relation μ − σ²/2
