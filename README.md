@@ -51,6 +51,8 @@ Simulation de 1000 trajectoires par mouvement brownien géométrique, calibrées
 ### 5 — Black-Scholes
 Pricing complet call/put, calcul analytique des Greeks (delta, gamma, vega, theta, rho), vérification de la parité call-put.
 
+![Options & Greeks SP500](PNG/sp500_BS_call_put_greeks.png)
+
 ### 6 — Heston
 Implémentation du modèle à volatilité stochastique via intégration de la fonction caractéristique. Génération d'un smile de volatilité théorique et comparaison avec la vol plate de Black-Scholes — mise en évidence du skew induit par la corrélation négative prix/volatilité (ρ < 0).
 
