@@ -56,6 +56,8 @@ Pricing complet call/put, calcul analytique des Greeks (delta, gamma, vega, thet
 ### 6 — Heston
 Implémentation du modèle à volatilité stochastique via intégration de la fonction caractéristique. Génération d'un smile de volatilité théorique et comparaison avec la vol plate de Black-Scholes — mise en évidence du skew induit par la corrélation négative prix/volatilité (ρ < 0).
 
+![Smile Heston](PNG/sp500_heston.png)
+
 ### 7 — Variance Risk Premium
 Backtest d'une stratégie systématique de vente de straddle ATM, delta-hedgée, sur 48 mois. Résultat : **win rate de 87.5%**, vol implicite moyenne (VIX) de 18.28% contre vol réalisée moyenne de 14.74% — confirmation empirique de la prime de risque de variance.
 
@@ -68,7 +70,7 @@ Construction d'une surface de volatilité à partir de vraies cotations d'option
 - de la term structure de la vol ATM
 - du skew systématiquement positif (puts OTM plus chers que calls OTM), signature de l'aversion au risque de queue du marché
 
-![Surface de volatilite implicite SP500](PNG/spx_vol_surface.png)
+![Surface 3D](PNG/spx_vol_surface.png)
 
 ## Concepts démontrés
 
