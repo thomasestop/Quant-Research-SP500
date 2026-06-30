@@ -1,6 +1,6 @@
 # SP500 Quant Research — De l'empirique au pricing avancé
 
-Projet personnel de recherche quantitative construit de zéro en Python, partant des données brutes du SP500 jusqu'à la construction d'une surface de volatilité implicite calibrée sur de vraies cotations d'options. L'objectif : démontrer une compréhension de premier principe des concepts de finance de marché, pas seulement leur application.
+Projet personnel de recherche quantitative construit en Python, partant des données du SP500 jusqu'à la construction d'une surface de volatilité implicite calibrée sur de vraies cotations d'options. L'objectif : montrer une compréhension de premier principe des concepts de finance de marché, pas seulement leur application.
 
 ## Approche
 
@@ -31,11 +31,6 @@ quant-research-sp500/
 
 ### 1 — Rendements et CAGR
 Calcul des rendements arithmétiques et logarithmiques, vérification empirique de la relation d'Itô :
-
-```
-ln(S_T/S_0) / T = μ_log
-CAGR_théorique = μ_log − σ²/2
-```
 
 Mise en évidence du *vol drag* — l'écart entre rendement arithmétique annualisé et rendement géométrique réellement empoché par l'investisseur.
 
